@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Pratice</title>
+</head>
+    <style>
+        *{
+            padding: 0;
+            box-sizing: border-box;
+            margin: 0;
+        }
+#count{
+    text-align: center;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 40px;
+}
+#h1{
+    color: rgb(78, 220, 225);
+    text-align: center;
+    font-size: 50px;
+}
+button{
+    padding: 8px 14px;
+
+}
+    </style>
+
+<body>
+    <h1 id="count">JavaScript Counter</h1>
+    <h1 id="h1">0</h1>
+    <button onclick="increment()">Increment</button>
+    <button onclick="decrement()">Decrement</button>
+    <button onclick="reset()">Reset</button>
+    <script src="app.js"></script>
+</body>
+
+</html>
